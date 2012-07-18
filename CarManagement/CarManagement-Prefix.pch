@@ -1,0 +1,23 @@
+//
+// Prefix header for all source files of the 'CarManagement' target in the 'CarManagement' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "GlobalMacros.h"
+    #import "NSString+CMAdditions.h"
+    #import "CMResManager.h"
+    #import "CarInfo.h"
+    #import "CurrentCarInfo.h"
+    #import "CarWarn.h"
+    #import "CMUser.h"
+    #import "AsyncSocket.h"
+    #import "CMConfig.h"
+#endif
